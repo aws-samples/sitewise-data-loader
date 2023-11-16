@@ -1,0 +1,94 @@
+<mxfile host="Electron" modified="2023-11-05T17:07:54.134Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="--gUjs4nx3fqLtYttLHD" version="22.0.3" type="device">
+  <diagram name="Architecture" id="Xund4ZhUYc85vm0yMNq3">
+    <mxGraphModel dx="2044" dy="1924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;opacity=50;" edge="1" parent="1" source="4b_Fr1bu2nRpDs3qfeuS-1" target="4b_Fr1bu2nRpDs3qfeuS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-1" value="Data stream" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_sitewise_data_streams;" vertex="1" parent="1">
+          <mxGeometry x="380" y="149" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;opacity=50;" edge="1" parent="1" source="4b_Fr1bu2nRpDs3qfeuS-2" target="4b_Fr1bu2nRpDs3qfeuS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-2" value="Asset&lt;br&gt;properties" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_sitewise_asset_properties;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="460" y="149" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;opacity=50;" edge="1" parent="1" source="4b_Fr1bu2nRpDs3qfeuS-3" target="4b_Fr1bu2nRpDs3qfeuS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-3" value="Asset&lt;br&gt;model" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_sitewise_asset_model;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="540" y="149" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-4" value="Asset" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_sitewise_asset;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="620" y="149" width="39.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4b_Fr1bu2nRpDs3qfeuS-9" target="4b_Fr1bu2nRpDs3qfeuS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4b_Fr1bu2nRpDs3qfeuS-9" target="4b_Fr1bu2nRpDs3qfeuS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-9" value="Listener&lt;br&gt;(port 3000)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="149" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4b_Fr1bu2nRpDs3qfeuS-10" target="4b_Fr1bu2nRpDs3qfeuS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-10" value="High-priority" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="119" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4b_Fr1bu2nRpDs3qfeuS-11" target="4b_Fr1bu2nRpDs3qfeuS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-11" value="Normal-priority" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="179" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4b_Fr1bu2nRpDs3qfeuS-13" target="4b_Fr1bu2nRpDs3qfeuS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-13" value="Sender&lt;br&gt;(Batch_Put)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="149" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-20" value="&amp;nbsp;AWS IoT SiteWise" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_iot_greengrass;strokeColor=#3F8624;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#3F8624;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="99" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-5" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_sitewise;" vertex="1" parent="4b_Fr1bu2nRpDs3qfeuS-20">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-21" value="SiteWise Data Loader" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="99" width="460" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="159" as="sourcePoint" />
+            <mxPoint x="-140" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-28" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;TQV message&lt;/font&gt;&lt;/h1&gt;&lt;pre style=&quot;padding: 9.5px; font-family: Consolas, Monaco, Menlo, &amp;quot;Courier New&amp;quot;, monospace; border-radius: 4px; margin-top: 20px; margin-bottom: 20px; line-height: 17.5px; word-break: break-all; overflow-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgba(0, 0, 0, 0.15);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;{&lt;br&gt;  &quot;messages&quot;: [&lt;br&gt;    &lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;br&gt;      &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;propertyAlias&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;string&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;      &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;stringValue&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;string&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;      &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;integerValue&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot; class=&quot;n&quot;&gt;integer&lt;b&gt;    |&lt;/b&gt;&lt;/span&gt;&lt;br&gt;      &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;doubleValue&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot; class=&quot;n&quot;&gt;double&lt;b&gt;      |&lt;/b&gt;&lt;/span&gt;&lt;br&gt;      &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;booleanValue&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot; class=&quot;n&quot;&gt;true&lt;/span&gt;&lt;span style=&quot;color: rgb(88, 40, 0);&quot; class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot; class=&quot;n&quot;&gt;false&lt;/span&gt;&lt;br&gt;      &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;timeInSeconds&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot; class=&quot;n&quot;&gt;long&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;      &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;offsetInNanos&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot; class=&quot;n&quot;&gt;integer,&lt;/span&gt;&lt;br&gt;      &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;quality&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;GOOD&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(88, 40, 0);&quot; class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;BAD&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(88, 40, 0);&quot; class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: rgb(78, 154, 6);&quot; class=&quot;s2&quot;&gt;&quot;UNCERTAIN&quot;&lt;br&gt;&lt;/span&gt;      &lt;/span&gt;&lt;font color=&quot;#006e00&quot;&gt;&quot;priority&quot;&lt;/font&gt;&lt;font color=&quot;#333333&quot;&gt;:&lt;/font&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(78, 154, 6); border-color: var(--border-color);&quot; class=&quot;s2&quot;&gt;&quot;high&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(88, 40, 0); border-color: var(--border-color);&quot; class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: rgb(78, 154, 6); border-color: var(--border-color);&quot; class=&quot;s2&quot;&gt;&quot;normal&quot;&lt;/span&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;br&gt;    &lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;br&gt;    &lt;/font&gt;&lt;span style=&quot;color: rgb(88, 40, 0);&quot; class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-weight: bold;&quot; class=&quot;p&quot;&gt;  ]&lt;br&gt;}&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-507" y="-10" width="320" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="179" as="sourcePoint" />
+            <mxPoint x="-140" y="179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="199" as="sourcePoint" />
+            <mxPoint x="-140" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-31" value="The value should be one of three types. Refer to sample messages." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=50;position=0.48;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="20" width="137" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4b_Fr1bu2nRpDs3qfeuS-32" value="You can send industrial data to AWS IoT SiteWise before creating asset models and assets. AWS IoT SiteWise automatically creates data streams to receive streams of raw data from your equipment." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=50;position=0.48;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="255.38" y="219" width="289.25" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
