@@ -4,18 +4,14 @@
 import { BatchPutAssetPropertyValueCommand } from '@aws-sdk/client-iotsitewise';
 
 export class EntryErrorException extends Error {
-    errorDetails: any;
-    command: BatchPutAssetPropertyValueCommand;
+  errorDetails: any;
+  command: BatchPutAssetPropertyValueCommand;
 
-    constructor(
-        msg: string,
-        errorDetails: any,
-        command: BatchPutAssetPropertyValueCommand
-    ) {
-        super(msg);
-        this.name = this.constructor.name;
-        this.errorDetails = errorDetails;
-        this.command = command;
-        this.name = this.constructor.name;
-    }
+  constructor(msg: string, errorDetails: any, command: BatchPutAssetPropertyValueCommand) {
+    super(msg);
+    this.name = this.constructor.name;
+    this.errorDetails = errorDetails;
+    this.command = command;
+    this.name = this.constructor.name;
+  }
 }

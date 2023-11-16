@@ -6,24 +6,22 @@ import { v4 as uuid } from 'uuid';
 
 @Injectable()
 export class HighPriorityService {
-    private logger = new Logger('HighPriorityService');
+  private logger = new Logger('HighPriorityService');
 
-    constructor(private readonly senderService: SenderService) {}
+  constructor(private readonly senderService: SenderService) {}
 
-    async put(tqvMessage: TqvMessage) {
-        this.logger.debug(`put: tqvMessage: ${JSON.stringify(tqvMessage)}`);
+  async put(tqvMessage: TqvMessage) {
+    this.logger.debug(`put: tqvMessage: ${JSON.stringify(tqvMessage)}`);
 
-        const putAssetPropertyValueEntry = {
-            entryId: uuid(),
-            propertyAlias: tqvMessage.propertyAlias,
-            propertyValues: [tqvMessage.propertyValue],
-        } as PutAssetPropertyValueEntry;
-        this.logger.debug(
-            `put: putAssetPropertyValueEntry: ${JSON.stringify(
-                putAssetPropertyValueEntry
-            )}`
-        );
+    const putAssetPropertyValueEntry = {
+      entryId: uuid(),
+      propertyAlias: tqvMessage.propertyAlias,
+      propertyValues: [tqvMessage.propertyValue],
+    } as PutAssetPropertyValueEntry;
+    this.logger.debug(
+      `put: putAssetPropertyValueEntry: ${JSON.stringify(putAssetPropertyValueEntry)}`,
+    );
 
-        return await this.senderService.push(putAssetPropertyValueEntry);
-    }
+    return await this.senderService.push(putAssetPropertyValueEntry);
+  }
 }

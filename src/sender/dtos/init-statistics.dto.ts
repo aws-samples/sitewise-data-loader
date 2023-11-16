@@ -1,7 +1,7 @@
 import { IsNotEmpty, IsNumber } from 'class-validator';
 
 export class InitStatistics {
-    @IsNotEmpty()
-    @IsNumber()
-    targetNumberOfTqvs: number;
+  @IsNotEmpty()
+  @IsNumber()
+  targetNumberOfTqvs: number;
 }

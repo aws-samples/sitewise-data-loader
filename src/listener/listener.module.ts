@@ -5,8 +5,8 @@ import { HighPriorityModule } from '../high-priority/high-priority.module';
 import { NormalPriorityModule } from '../normal-priority/normal-priority.module';
 
 @Module({
-    providers: [ListenerService],
-    controllers: [ListenerController],
-    imports: [HighPriorityModule, NormalPriorityModule],
+  providers: [ListenerService],
+  controllers: [ListenerController],
+  imports: [HighPriorityModule, NormalPriorityModule],
 })
 export class ListenerModule {}

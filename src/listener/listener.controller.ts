@@ -5,21 +5,21 @@ import { ListenerService } from './listener.service';
 
 @Controller('listener')
 export class ListenerController {
-    private logger = new Logger('ListenerController');
+  private logger = new Logger('ListenerController');
 
-    constructor(private readonly listenerService: ListenerService) {}
+  constructor(private readonly listenerService: ListenerService) {}
 
-    @Post('message')
-    async newMessage(@Body() message: CreateMessageDto) {
-        this.logger.debug(`newMessage: message: ${JSON.stringify(message)}`);
+  @Post('message')
+  async newMessage(@Body() message: CreateMessageDto) {
+    this.logger.debug(`newMessage: message: ${JSON.stringify(message)}`);
 
-        return await this.listenerService.newMessage(message);
-    }
+    return await this.listenerService.newMessage(message);
+  }
 
-    @Post('batch')
-    async newBatch(@Body() messages: CreateBatchDto) {
-        this.logger.debug(`newBatch: messages: ${JSON.stringify(messages)}`);
+  @Post('batch')
+  async newBatch(@Body() messages: CreateBatchDto) {
+    this.logger.debug(`newBatch: messages: ${JSON.stringify(messages)}`);
 
-        return await this.listenerService.newBatch(messages);
-    }
+    return await this.listenerService.newBatch(messages);
+  }
 }
